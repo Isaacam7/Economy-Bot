@@ -1,0 +1,10 @@
+Command Name, Command Function, Command Format
+%calc, perform a computation, %calc (computtaion to be performed) exp: %calc 5 + (9/5)
+%bal, show the users current balance, %bal
+%cbal, show another users balance, %cbal @otheruser
+%cpor, show a page of companies owned buy the user, %cpor (pagenum)
+%bis, show a page of companies available for purchase, %bis (pagenum)
+%buy, buy a certain company, %buy (company listnum on page) exp: %buy 0 buys the first company on the list
+%sell, sell a certain company, %sell (company listnum on portfolio) exp: %sell 0 sells the first company on the users portfolio
+%bsearch, search for a specific type of company, %bsearch (company type) returns all companys in the current market of the specified type
+%help, list available commands and their function and formatting, %help
