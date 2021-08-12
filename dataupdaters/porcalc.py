@@ -3,7 +3,7 @@ import pandas as pd
 import useful
 import os
 
-idlist = useful.load(r"C:\Users\Isaac\PycharmProjects\gcdiscordbot0\Bank\balance_data.csv")[1:]
+idlist = useful.load(os.path.split(os.getcwd())[:-1][0] + r"\Bank\balance_data.csv")[1:]
 for i in range(len(idlist)):
     idlist[i] = idlist[i][0]
 
