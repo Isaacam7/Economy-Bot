@@ -6,6 +6,7 @@ import random
 import economy
 import useful
 import compcluster
+import plot
 
 #set token
 file = open("token", "r+")
@@ -137,6 +138,11 @@ async def on_message(message):
                             inline=True
                             )
         await message.channel.send(embed=embedvar4)
+
+    if message.content.startswith('%plot'):
+        arg5 = message.content.split()
+        plot.histp(arg5[1])
+        await message.channel.send(file=discord.File('image.png'))
 
 client.run(token)
 
