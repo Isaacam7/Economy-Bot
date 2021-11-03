@@ -8,3 +8,4 @@ Command Name, Command Function, Command Format
 %sell, sell a certain company, %sell (company listnum on portfolio) exp: %sell 0 sells the first company on the users portfolio
 %bsearch, search for a specific type of company, %bsearch (company type) returns all companys in the current market of the specified type
 %help, list available commands and their function and formatting, %help
+%plot, plot companies of a certain type with respect to price in a dot plot, %plot company (plottype)
